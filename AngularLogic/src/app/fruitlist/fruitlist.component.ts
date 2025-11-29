@@ -39,7 +39,7 @@ export class FruitlistComponent {
       description: "Aus Erdbeeren lässt sich beispielsweise Marmelade herstellen. Die Pflege von Pflanzen ist etwas mühsam, aber es lohnt sich. Erdbeeren aus dem eigenen Garten schmecken in vielen Fällen besser als Obst aus dem Supermarkt",
       genus: "Pflanzenart aus der Familie der Rosengewächse (Rosaceae)",
       stars: 4.3,
-      reviews: [{ name: "Mandy K.", text: "perfekt für Kuchen" }, { name: "Olaf P.", text: "Kann man auch mal machen" }],
+      reviews: [],
     },
     {
       name: "Zitrone",
