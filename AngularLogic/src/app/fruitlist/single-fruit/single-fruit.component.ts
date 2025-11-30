@@ -19,10 +19,11 @@ export class SingleFruitComponent {
 
   inputData: string = '';
 
-  @Output() fruitname = new EventEmitter<string>();
+  @Output() comment = new EventEmitter<string>();
 
   sendInputData(){
-    this.fruitname.emit(this.inputData);
+    this.comment.emit(this.inputData);
+    this.inputData = '';
   }
 
 }
